@@ -6,7 +6,7 @@ const Header = () => (
 
         <div className="text-center headingOne text-light ">
             <div className="jumbotron jumbotron-fluid bg-transparent pushTop">
-                <h1 >Clicky Game</h1>
+                <h1>Clicky Game</h1>
                 <h4>Click on an image to score, but if you click on an image twice, you lose!</h4>
             </div>
         </div>

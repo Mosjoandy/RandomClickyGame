@@ -5,6 +5,10 @@
   
 }
 
+h1 {
+    font-weight: bold;
+    font-size: 4em;
+}
 .pushTop {
     padding-top: 125px;
 }
