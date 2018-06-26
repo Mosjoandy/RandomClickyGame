@@ -2,7 +2,7 @@
   "name": "clickygame",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Mosjoandy/RandomClickyGame",
+  "homepage": "https://mosjoandy.github.io/RandomClickyGame/",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
