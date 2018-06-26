@@ -3,7 +3,7 @@ import styles from "./Card.css"
 
 const Card = props => (
 
-    <span>
+    <span onClick={() => props.cardClick(props.id)}>
         <img alt={props.id} src={props.img} />
     </span>
 )

@@ -1,8 +1,8 @@
 import React from "react";
 
-const Navbar = () => (
+const Navbar = props => (
 
-    <ul className="nav text-center bg-dark text-light pt-3 pb-3">
+    <ul className="nav text-center bg-dark text-light pt-3 pb-3 sticky-top">
 
     <li className="nav-item col-md-4">
         <a className="nav-link text-light " href="#"><h2 className="font-weight-bold">Clicky Game</h2></a>
@@ -14,7 +14,7 @@ const Navbar = () => (
 
     <li className="nav-item col-md-4">
         <h2 className="mt-2">
-        Score: <span>0</span> | Top Score: <span>0</span>
+        Score: {props.score} | Top Score: {props.highscore}
         </h2>
     </li>
 
